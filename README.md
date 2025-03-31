@@ -12,7 +12,8 @@ Se os Averiguações falharem, o GitHub Actions mostrará os **logs detalhados**
 
  **Onde ver os Averiguações?**  
 Acesse a aba **"Ações"** no repositório GitHub:  
- [https://github.com/schaedler6/Projeto-Integrador-SGE/actions](https://github.com/schaedler6/Projeto-Integrador-SGE/actions)  
+ https://github.com/schaedler6/sistema-pagamento-testes/actions
+  
 
  **Dica:** Antes de fazer push, rodem os Averiguações localmente com \pytest tests/\ para evitar falhas.
 
