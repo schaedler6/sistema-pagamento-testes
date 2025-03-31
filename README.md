@@ -1,20 +1,48 @@
-#  Atualização no Projeto: CI/CD Corrigido!
+# 💳 Sistema de Pagamento com Testes Automatizados
 
-Olá, professores!
+Este repositório contém a implementação de um sistema de pagamento simulado, utilizando a linguagem Python e o framework de testes **Pytest**.
 
-Acabei de corrigir e validar o **pipeline de CI/CD** no GitHub Actions. Agora, sempre que alguém fizer um **push** ou um **pull request** na branch \main\, os seguintes processos serão executados automaticamente:
+O projeto visa demonstrar conceitos de:
 
- **Averiguações automatizados** (\pytest tests/\)  
- **Instalação das dependências**  
- **Deploy automático (simulado por enquanto)**  
+- Orientação a objetos  
+- Testes unitários  
+- Simulação de gateways de pagamento (como o PayPal)  
+- Reembolso com taxas aplicadas  
+- Validação e controle de transações  
 
-Se os Averiguações falharem, o GitHub Actions mostrará os **logs detalhados** com o erro. Para evitar problemas, confiram os logs sempre que um commit for rejeitado.
+---
 
+<<<<<<< HEAD
  **Onde ver os Averiguações?**  
 Acesse a aba **"Ações"** no repositório GitHub:  
  https://github.com/schaedler6/sistema-pagamento-testes/actions
   
+=======
+## 📁 Estrutura do Projeto
+>>>>>>> ed78c2b (docs: substitui README com conteúdo completo e link correto de ações)
 
- **Dica:** Antes de fazer push, rodem os Averiguações localmente com \pytest tests/\ para evitar falhas.
+| Arquivo                     | Descrição                                         |
+|-----------------------------|--------------------------------------------------|
+| `sistema_pagamento.py`      | Implementação do gateway de pagamento e sistema  |
+| `test_sistema_pagamento.py` | Testes automatizados usando `pytest`             |
+| `.gitignore`                | Ignora arquivos temporários e ambientes virtuais |
+| `LEIA-ME.md` ou `README.md` | Documentação e instruções do projeto              |
 
- **Bora codar!**
+---
+
+## ✅ Funcionalidades
+
+- Autorização de pagamento com saldo  
+- Controle de transações com ID  
+- Reembolso com desconto de 5%  
+- Validação de valores inválidos  
+
+---
+
+## 🚀 Como executar os testes
+
+1. Certifique-se de ter o Python 3.12+ instalado.
+2. Instale as dependências (caso ainda não tenha o Pytest):
+
+```bash
+pip install pytest
